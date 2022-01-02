@@ -16,19 +16,50 @@ nlu:
     - goodmorning
     - goodevening
     - good afternoon
+    - dude
+    - Namaste
+    - sata sri akal
+    - nomoshkar
+    - aadab
+    - parnam
+    - vanakkam
+
+- intent: university_information
+  examples: |
+    - How is [Missouri S&T](university_name)
+    - How is [MUST](university_name)
+    - [Missouri S&T](university_name) stats
+    - [Missouri University of Science and Technology](university_name) statistics
+    - statistics on [Missouri University of Science and Technology](university_name) 
+    - information on this [university](university_name)
+    - information on [Missouri University of Science and Technology](university_name)
+    - ranking of this [university](university_name)
+    - ranking and rating of this [university](university_name)
+    - Why [missouri university of science and technology](university_name)?
+    - Why [MST](university_name)? 
+    - Tell me something about this [university](university_name)
+    - Tell me something about [MST](university_name)
+    - give me some information on this [university](university_name)
+    - give me some information on [Missouri S&T](university_name)
+    - general information on [MST](university_name)
+    - general stats on [Missouri university of science and technology](university_name)
 
 - intent: goodbye
   examples: |
     - cu
     - good by
     - cee you later
+    - see you
+    - see you later
+    - bubye
+    - ta ta
     - good night
     - bye
     - goodbye
     - have a nice day
     - see you around
     - bye bye
-    - see you later
+    - have a great day
 
 - intent: affirm
   examples: |

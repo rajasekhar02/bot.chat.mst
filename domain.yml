@@ -8,10 +8,16 @@ intents:
   - mood_great
   - mood_unhappy
   - bot_challenge
+  - university_information
 
 responses:
   utter_greet:
   - text: "Hey! How are you?"
+
+  utter_university_information:
+  - text: "Hey Please open this link https://www.mst.edu/about/rankings/"
+  - text: "Thanks for asking us the information. Please find the information in this page https://www.mst.edu/about/rankings/"
+  - text: "Hey! Here you go! https://www.mst.edu/about/rankings/"
 
   utter_cheer_up:
   - text: "Here is something to cheer you up:"
