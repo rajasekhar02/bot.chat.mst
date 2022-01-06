@@ -35,8 +35,6 @@ stories:
   - intent: greet
   - action: utter_greet
   - intent: university_information
-    entities:
-    - university_name: "Missouri S&T"
   - action: utter_university_information
   - intent: mood_great
   - action: utter_happy

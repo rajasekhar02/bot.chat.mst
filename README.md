@@ -24,4 +24,6 @@ To test the trained model in command line in rasa enter the below command
 
 > rasa shell
 
-Please refer the [Rasa Commandline Documentation](https://rasa.com/docs/rasa/command-line-interface/) for further queries
+Please refer to [Rasa Commandline Documentation](https://rasa.com/docs/rasa/command-line-interface/) for other commands.
+
+Please refer to [python-telegram-bot](https://github.com/python-telegram-bot/python-telegram-bot) for telegram bot api documentation.
