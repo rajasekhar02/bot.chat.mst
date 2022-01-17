@@ -40,3 +40,14 @@ stories:
   - action: utter_happy
   - intent: goodbye
   - action: utter_goodbye
+
+- story: interactive_story_1
+  steps:
+  - intent: affirm
+  - action: utter_happy
+  - intent: university_information
+    entities:
+    - university_name: university
+  - action: utter_university_information
+  - intent: university_information
+  - action: utter_university_information
